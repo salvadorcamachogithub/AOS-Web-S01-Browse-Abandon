@@ -1,0 +1,1 @@
+This script is browsing the Advantage Online Shopping Web Application, browsers a category, randomly selects a product from there and adds it to the cart

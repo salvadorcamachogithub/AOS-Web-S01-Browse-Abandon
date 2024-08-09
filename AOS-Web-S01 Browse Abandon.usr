@@ -7,13 +7,13 @@ NewFunctionHeader=1
 RunType=cci
 ActionLogicExt=action_logic
 LastActiveAction=Action
-MajorVersion=2023
-MinorVersion=0
+MajorVersion=24
+MinorVersion=1
 ActiveTypes=QTWeb
 GenerateTypes=QTWeb
 AdditionalTypes=QTWeb
 DevelopTool=Vugen
-LastModifyVer=2023.0.0.0
+LastModifyVer=24.1.0.0
 DFERebrandFlag=Done
 ParamLeftBrace={
 ParamRightBrace=}
@@ -53,15 +53,17 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="AOS-Web-S01-04 Add To Cart__*delimiter*__AOS-Web-S01-03 Random Product__*delimiter*__AOS-Web-S01-05 Checkout__*delimiter*__AOS-Web-S01-02 Go To Speakers__*delimiter*__AOS-Web-S01-01 Access AOS URL"
+Order="AOS-Web-S01-01 Access AOS URL__*delimiter*__AOS-Web-S01-02 Go To Speakers__*delimiter*__AOS-Web-S01-03 Random Product__*delimiter*__AOS-Web-S01-04 Add To Cart__*delimiter*__AOS-Web-S01-05 Checkout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
 [Transactions]
-"AOS-Web-S01-04 Add To Cart"=
-"AOS-Web-S01-03 Random Product"=
-"AOS-Web-S01-05 Checkout"=
-"AOS-Web-S01-02 Go To Speakers"=
 "AOS-Web-S01-01 Access AOS URL"=
+"AOS-Web-S01-02 Go To Speakers"=
+"AOS-Web-S01-03 Random Product"=
+"AOS-Web-S01-04 Add To Cart"=
+"AOS-Web-S01-05 Checkout"=
+[ManuallyExtraFiles]
+README.md=
