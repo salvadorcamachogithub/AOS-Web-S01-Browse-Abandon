@@ -6,7 +6,7 @@ Action()
 	web_reg_find("Text=Advantage Shopping", 
 		LAST);
 		
-	// Comment added in V1
+	// Comment added in V3
 
 lr_start_transaction("AOS-Web-S01-01 Access AOS URL");
 
